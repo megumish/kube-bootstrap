@@ -1,5 +1,5 @@
-variable "linode_token" {
-  type = string
+variable "linode" {
+  type = any
 }
 
 variable "environment" {
