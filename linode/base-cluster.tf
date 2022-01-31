@@ -1,5 +1,5 @@
 module "helm" {
-  source = "../base-cluster/modules/helm"
+  source = "../modules/base-cluster/modules/helm"
 
   kube_host                   = module.lke.kube_host
   kube_token                  = module.lke.kube_token
